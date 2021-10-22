@@ -1,20 +1,21 @@
 //
-//  HourMeterApp.swift
-//  HourMeter
+//  HourMeteriPadApp.swift
+//  HourMeteriPad
 //
-//  Created by Daniel Jilg on 21.10.21.
+//  Created by Daniel Jilg on 22.10.21.
 //
 
 import SwiftUI
 
 @main
-struct HourMeterApp: App {
+struct HourMeteriPadApp: App {
     let persistenceController = PersistenceController.shared
 
     var body: some Scene {
         WindowGroup {
             PersonList()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                .accentColor(Color("Petrol"))
         }
     }
 }

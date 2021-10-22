@@ -7,15 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B4A84CA2723642100305F20 /* HourMeteriPadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4A84C92723642100305F20 /* HourMeteriPadApp.swift */; };
+		2B4A84CE2723642100305F20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B4A84CD2723642100305F20 /* Assets.xcassets */; };
+		2B4A84DA2723647900305F20 /* HourMeter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B77CA362721EAE300D635C2 /* HourMeter.xcdatamodeld */; };
+		2B4A84DB2723647C00305F20 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B77CA492721F43F00D635C2 /* Person+CoreDataProperties.swift */; };
+		2B4A84DC2723647C00305F20 /* HourEntry+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B77CA4A2721F43F00D635C2 /* HourEntry+CoreDataClass.swift */; };
+		2B4A84DD2723647C00305F20 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B77CA482721F43F00D635C2 /* Person+CoreDataClass.swift */; };
+		2B4A84DE2723647C00305F20 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B77CA342721EAE300D635C2 /* Persistence.swift */; };
+		2B4A84DF2723647C00305F20 /* HourEntry+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B77CA4B2721F43F00D635C2 /* HourEntry+CoreDataProperties.swift */; };
+		2B4A84E02723648100305F20 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B77CA3F2721EC4500D635C2 /* DateExtensions.swift */; };
+		2B4A84E12723648100305F20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B77CA2D2721EAE200D635C2 /* ContentView.swift */; };
+		2B4A84E22723648400305F20 /* PersonEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B77CA56272203F600D635C2 /* PersonEditor.swift */; };
+		2B4A84E32723648400305F20 /* PersonOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B77CA54272201A700D635C2 /* PersonOverview.swift */; };
+		2B4A84E42723648400305F20 /* PersonHourEntries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B77CA452721EF1300D635C2 /* PersonHourEntries.swift */; };
+		2B4A84E52723648400305F20 /* PersonMetaInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B77CA522721FBAA00D635C2 /* PersonMetaInfo.swift */; };
+		2B4A84E62723648400305F20 /* PersonList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B77CA432721ED3400D635C2 /* PersonList.swift */; };
+		2B4A84E72723648400305F20 /* HourEntryEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B77CA5827220B0800D635C2 /* HourEntryEditor.swift */; };
+		2B4A84E92723717B00305F20 /* PersonListEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4A84E82723717B00305F20 /* PersonListEntry.swift */; };
+		2B4A84EA2723717B00305F20 /* PersonListEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4A84E82723717B00305F20 /* PersonListEntry.swift */; };
 		2B77CA2C2721EAE200D635C2 /* HourMeterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B77CA2B2721EAE200D635C2 /* HourMeterApp.swift */; };
 		2B77CA2E2721EAE200D635C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B77CA2D2721EAE200D635C2 /* ContentView.swift */; };
 		2B77CA302721EAE300D635C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B77CA2F2721EAE300D635C2 /* Assets.xcassets */; };
 		2B77CA332721EAE300D635C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B77CA322721EAE300D635C2 /* Preview Assets.xcassets */; };
 		2B77CA352721EAE300D635C2 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B77CA342721EAE300D635C2 /* Persistence.swift */; };
 		2B77CA382721EAE300D635C2 /* HourMeter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B77CA362721EAE300D635C2 /* HourMeter.xcdatamodeld */; };
+		2B77CA402721EC4500D635C2 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B77CA3F2721EC4500D635C2 /* DateExtensions.swift */; };
+		2B77CA442721ED3400D635C2 /* PersonList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B77CA432721ED3400D635C2 /* PersonList.swift */; };
+		2B77CA462721EF1300D635C2 /* PersonHourEntries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B77CA452721EF1300D635C2 /* PersonHourEntries.swift */; };
+		2B77CA4C2721F43F00D635C2 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B77CA482721F43F00D635C2 /* Person+CoreDataClass.swift */; };
+		2B77CA4D2721F43F00D635C2 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B77CA492721F43F00D635C2 /* Person+CoreDataProperties.swift */; };
+		2B77CA4E2721F43F00D635C2 /* HourEntry+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B77CA4A2721F43F00D635C2 /* HourEntry+CoreDataClass.swift */; };
+		2B77CA4F2721F43F00D635C2 /* HourEntry+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B77CA4B2721F43F00D635C2 /* HourEntry+CoreDataProperties.swift */; };
+		2B77CA532721FBAA00D635C2 /* PersonMetaInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B77CA522721FBAA00D635C2 /* PersonMetaInfo.swift */; };
+		2B77CA55272201A700D635C2 /* PersonOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B77CA54272201A700D635C2 /* PersonOverview.swift */; };
+		2B77CA57272203F600D635C2 /* PersonEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B77CA56272203F600D635C2 /* PersonEditor.swift */; };
+		2B77CA5927220B0800D635C2 /* HourEntryEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B77CA5827220B0800D635C2 /* HourEntryEditor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B4A84C72723642100305F20 /* HourMeteriPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HourMeteriPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B4A84C92723642100305F20 /* HourMeteriPadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourMeteriPadApp.swift; sourceTree = "<group>"; };
+		2B4A84CD2723642100305F20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B4A84E82723717B00305F20 /* PersonListEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListEntry.swift; sourceTree = "<group>"; };
 		2B77CA282721EAE200D635C2 /* HourMeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HourMeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B77CA2B2721EAE200D635C2 /* HourMeterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourMeterApp.swift; sourceTree = "<group>"; };
 		2B77CA2D2721EAE200D635C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,9 +57,27 @@
 		2B77CA342721EAE300D635C2 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		2B77CA372721EAE300D635C2 /* HourMeter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HourMeter.xcdatamodel; sourceTree = "<group>"; };
 		2B77CA392721EAE300D635C2 /* HourMeter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HourMeter.entitlements; sourceTree = "<group>"; };
+		2B77CA3F2721EC4500D635C2 /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
+		2B77CA432721ED3400D635C2 /* PersonList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonList.swift; sourceTree = "<group>"; };
+		2B77CA452721EF1300D635C2 /* PersonHourEntries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonHourEntries.swift; sourceTree = "<group>"; };
+		2B77CA482721F43F00D635C2 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2B77CA492721F43F00D635C2 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2B77CA4A2721F43F00D635C2 /* HourEntry+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HourEntry+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2B77CA4B2721F43F00D635C2 /* HourEntry+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HourEntry+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2B77CA522721FBAA00D635C2 /* PersonMetaInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonMetaInfo.swift; sourceTree = "<group>"; };
+		2B77CA54272201A700D635C2 /* PersonOverview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonOverview.swift; sourceTree = "<group>"; };
+		2B77CA56272203F600D635C2 /* PersonEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonEditor.swift; sourceTree = "<group>"; };
+		2B77CA5827220B0800D635C2 /* HourEntryEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourEntryEditor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2B4A84C42723642100305F20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2B77CA252721EAE200D635C2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -37,10 +88,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B4A84C82723642100305F20 /* HourMeteriPad */ = {
+			isa = PBXGroup;
+			children = (
+				2B4A84C92723642100305F20 /* HourMeteriPadApp.swift */,
+				2B4A84CD2723642100305F20 /* Assets.xcassets */,
+			);
+			path = HourMeteriPad;
+			sourceTree = "<group>";
+		};
 		2B77CA1F2721EAE200D635C2 = {
 			isa = PBXGroup;
 			children = (
 				2B77CA2A2721EAE200D635C2 /* HourMeter */,
+				2B4A84C82723642100305F20 /* HourMeteriPad */,
 				2B77CA292721EAE200D635C2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				2B77CA282721EAE200D635C2 /* HourMeter.app */,
+				2B4A84C72723642100305F20 /* HourMeteriPad.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,12 +118,13 @@
 		2B77CA2A2721EAE200D635C2 /* HourMeter */ = {
 			isa = PBXGroup;
 			children = (
-				2B77CA2B2721EAE200D635C2 /* HourMeterApp.swift */,
-				2B77CA2D2721EAE200D635C2 /* ContentView.swift */,
-				2B77CA2F2721EAE300D635C2 /* Assets.xcassets */,
-				2B77CA342721EAE300D635C2 /* Persistence.swift */,
 				2B77CA392721EAE300D635C2 /* HourMeter.entitlements */,
-				2B77CA362721EAE300D635C2 /* HourMeter.xcdatamodeld */,
+				2B77CA512721F6C500D635C2 /* Supporting Files */,
+				2B77CA502721F53600D635C2 /* Core Data Models */,
+				2B77CA2D2721EAE200D635C2 /* ContentView.swift */,
+				2B77CA3F2721EC4500D635C2 /* DateExtensions.swift */,
+				2B77CA2B2721EAE200D635C2 /* HourMeterApp.swift */,
+				2B77CA472721EF1D00D635C2 /* Person */,
 				2B77CA312721EAE300D635C2 /* Preview Content */,
 			);
 			path = HourMeter;
@@ -75,9 +138,61 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		2B77CA472721EF1D00D635C2 /* Person */ = {
+			isa = PBXGroup;
+			children = (
+				2B77CA432721ED3400D635C2 /* PersonList.swift */,
+				2B4A84E82723717B00305F20 /* PersonListEntry.swift */,
+				2B77CA54272201A700D635C2 /* PersonOverview.swift */,
+				2B77CA452721EF1300D635C2 /* PersonHourEntries.swift */,
+				2B77CA522721FBAA00D635C2 /* PersonMetaInfo.swift */,
+				2B77CA56272203F600D635C2 /* PersonEditor.swift */,
+				2B77CA5827220B0800D635C2 /* HourEntryEditor.swift */,
+			);
+			path = Person;
+			sourceTree = "<group>";
+		};
+		2B77CA502721F53600D635C2 /* Core Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				2B77CA362721EAE300D635C2 /* HourMeter.xcdatamodeld */,
+				2B77CA342721EAE300D635C2 /* Persistence.swift */,
+				2B77CA482721F43F00D635C2 /* Person+CoreDataClass.swift */,
+				2B77CA492721F43F00D635C2 /* Person+CoreDataProperties.swift */,
+				2B77CA4A2721F43F00D635C2 /* HourEntry+CoreDataClass.swift */,
+				2B77CA4B2721F43F00D635C2 /* HourEntry+CoreDataProperties.swift */,
+			);
+			path = "Core Data Models";
+			sourceTree = "<group>";
+		};
+		2B77CA512721F6C500D635C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B77CA2F2721EAE300D635C2 /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2B4A84C62723642100305F20 /* HourMeteriPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B4A84D92723642100305F20 /* Build configuration list for PBXNativeTarget "HourMeteriPad" */;
+			buildPhases = (
+				2B4A84C32723642100305F20 /* Sources */,
+				2B4A84C42723642100305F20 /* Frameworks */,
+				2B4A84C52723642100305F20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HourMeteriPad;
+			productName = HourMeteriPad;
+			productReference = 2B4A84C72723642100305F20 /* HourMeteriPad.app */;
+			productType = "com.apple.product-type.application";
+		};
 		2B77CA272721EAE200D635C2 /* HourMeter */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B77CA3C2721EAE300D635C2 /* Build configuration list for PBXNativeTarget "HourMeter" */;
@@ -105,6 +220,9 @@
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
+					2B4A84C62723642100305F20 = {
+						CreatedOnToolsVersion = 13.1;
+					};
 					2B77CA272721EAE200D635C2 = {
 						CreatedOnToolsVersion = 13.1;
 					};
@@ -124,11 +242,20 @@
 			projectRoot = "";
 			targets = (
 				2B77CA272721EAE200D635C2 /* HourMeter */,
+				2B4A84C62723642100305F20 /* HourMeteriPad */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2B4A84C52723642100305F20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B4A84CE2723642100305F20 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2B77CA262721EAE200D635C2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -141,20 +268,118 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2B4A84C32723642100305F20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B4A84E32723648400305F20 /* PersonOverview.swift in Sources */,
+				2B4A84E42723648400305F20 /* PersonHourEntries.swift in Sources */,
+				2B4A84E62723648400305F20 /* PersonList.swift in Sources */,
+				2B4A84DC2723647C00305F20 /* HourEntry+CoreDataClass.swift in Sources */,
+				2B4A84E22723648400305F20 /* PersonEditor.swift in Sources */,
+				2B4A84EA2723717B00305F20 /* PersonListEntry.swift in Sources */,
+				2B4A84CA2723642100305F20 /* HourMeteriPadApp.swift in Sources */,
+				2B4A84DD2723647C00305F20 /* Person+CoreDataClass.swift in Sources */,
+				2B4A84DE2723647C00305F20 /* Persistence.swift in Sources */,
+				2B4A84DF2723647C00305F20 /* HourEntry+CoreDataProperties.swift in Sources */,
+				2B4A84E12723648100305F20 /* ContentView.swift in Sources */,
+				2B4A84E02723648100305F20 /* DateExtensions.swift in Sources */,
+				2B4A84DA2723647900305F20 /* HourMeter.xcdatamodeld in Sources */,
+				2B4A84DB2723647C00305F20 /* Person+CoreDataProperties.swift in Sources */,
+				2B4A84E72723648400305F20 /* HourEntryEditor.swift in Sources */,
+				2B4A84E52723648400305F20 /* PersonMetaInfo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2B77CA242721EAE200D635C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B77CA4E2721F43F00D635C2 /* HourEntry+CoreDataClass.swift in Sources */,
+				2B77CA57272203F600D635C2 /* PersonEditor.swift in Sources */,
+				2B77CA462721EF1300D635C2 /* PersonHourEntries.swift in Sources */,
 				2B77CA352721EAE300D635C2 /* Persistence.swift in Sources */,
+				2B77CA4F2721F43F00D635C2 /* HourEntry+CoreDataProperties.swift in Sources */,
+				2B4A84E92723717B00305F20 /* PersonListEntry.swift in Sources */,
+				2B77CA402721EC4500D635C2 /* DateExtensions.swift in Sources */,
+				2B77CA532721FBAA00D635C2 /* PersonMetaInfo.swift in Sources */,
+				2B77CA55272201A700D635C2 /* PersonOverview.swift in Sources */,
 				2B77CA382721EAE300D635C2 /* HourMeter.xcdatamodeld in Sources */,
+				2B77CA4C2721F43F00D635C2 /* Person+CoreDataClass.swift in Sources */,
+				2B77CA4D2721F43F00D635C2 /* Person+CoreDataProperties.swift in Sources */,
 				2B77CA2E2721EAE200D635C2 /* ContentView.swift in Sources */,
 				2B77CA2C2721EAE200D635C2 /* HourMeterApp.swift in Sources */,
+				2B77CA5927220B0800D635C2 /* HourEntryEditor.swift in Sources */,
+				2B77CA442721ED3400D635C2 /* PersonList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		2B4A84D72723642100305F20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HourMeter/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.breakthesystem.HourMeteriPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B4A84D82723642100305F20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HourMeter/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.breakthesystem.HourMeteriPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		2B77CA3A2721EAE300D635C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -280,7 +505,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HourMeter/Preview Content\"";
-				DEVELOPMENT_TEAM = FL4V655A94;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -307,7 +532,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HourMeter/Preview Content\"";
-				DEVELOPMENT_TEAM = FL4V655A94;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -327,6 +552,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2B4A84D92723642100305F20 /* Build configuration list for PBXNativeTarget "HourMeteriPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B4A84D72723642100305F20 /* Debug */,
+				2B4A84D82723642100305F20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2B77CA232721EAE200D635C2 /* Build configuration list for PBXProject "HourMeter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
