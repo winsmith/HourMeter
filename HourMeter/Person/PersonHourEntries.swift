@@ -13,6 +13,11 @@ struct PersonHourEntries: View {
     @Environment(\.managedObjectContext) private var viewContext
 
     var body: some View {
+        if person.typedHourEntries.isEmpty {
+            Text("Bitte erstellen Sie mit + den ersten Eintrag.")
+                .foregroundColor(.secondary)
+        }
+
         List {
             ForEach(person.typedHourEntries) { entry in
                 NavigationLink {
@@ -47,7 +52,7 @@ struct PersonHourEntries: View {
             save()
         }
     }
-    
+
     private func deleteItems(offsets: IndexSet) {
         withAnimation {
             offsets.map { person.typedHourEntries[$0] }.forEach(viewContext.delete)

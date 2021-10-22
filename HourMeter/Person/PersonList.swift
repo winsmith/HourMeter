@@ -19,6 +19,11 @@ struct PersonList: View {
     var body: some View {
         NavigationView {
             List {
+                if items.isEmpty {
+                    Text("Bitte erstellen Sie mit + die erste Person.")
+                        .foregroundColor(.secondary)
+                }
+
                 ForEach(items) { person in
                     NavigationLink {
                         PersonOverview(person: person)
