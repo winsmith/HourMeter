@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  HourMeter
+
+  Created by Daniel Jilg on 25.10.21.
+  
+*/
+
+"empty-person-list-hint" = "Please use + to add a person"

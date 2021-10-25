@@ -38,7 +38,11 @@ public extension Person {
 
 extension Person {
     var typedHourEntries: [HourEntry] {
-        return (hourEntries?.allObjects as! [HourEntry]).sorted { $0.occurredAt > $1.occurredAt }
+        guard let hourEntries = hourEntries else { return [] }
+        
+        guard let hourEntriesObjects = hourEntries.allObjects as? [HourEntry] else { return [] }
+        
+        return hourEntriesObjects.sorted { $0.occurredAt > $1.occurredAt }
     }
 
     var sumOfAllHourEntries: Double {
