@@ -6,4 +6,31 @@
   
 */
 
-"empty-person-list-hint" = "Please use + to add a person"
+/* General */
+"hours" = "Stunden";
+
+/* PersonList */
+"person-list-title" = "Personen";
+"person-list-new-person" = "Neue Person";
+"person-list-empty-detail" = "Bitte wählen Sie eine Person aus";
+"empty-person-list-hint" = "Bitte erstellen Sie mit + die erste Person";
+
+/* PersonHourEntries */
+"person-hour-entries-empty-list-hint" = "Bitte erstellen Sie mit + den ersten Eintrag.";
+"person-hour-list-new-entry" = "Neuer Eintrag";
+
+/* PersonMetaInfo */
+"person-meta-info-edit-person" = "Person Bearbeiten";
+
+/* PersonEditor */
+"person-editor-edit-person" = "Person Bearbeiten";
+"person-editor-name" = "Name";
+"person-editor-name-prompt" = "Name der Person";
+"person-editor-note" = "Notiz";
+"person-editor-name-prompt" = "Optional: Notizen";
+"person-editor-save" = "Speichern";
+"person-editor-title-name %@" = "%@ bearbeiten";
+
+/* HourEntryEditor */
+"entry-editor-title" = "Eintrag Bearbeiten";
+"entry-editor-date" = "Datum";

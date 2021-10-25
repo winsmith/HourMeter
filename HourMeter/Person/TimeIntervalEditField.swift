@@ -35,7 +35,7 @@ struct TimeIntervalEditField: View, Animatable {
             VStack {
                 Text(DateComponentsFormatter.timeIntervalString(from: timeInterval))
                     .font(.largeTitle)
-                Text("Stunden")
+                Text("hours")
                     .foregroundColor(.secondary)
             }
 

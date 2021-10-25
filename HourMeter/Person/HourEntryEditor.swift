@@ -14,11 +14,11 @@ struct HourEntryEditor: View {
 
     var body: some View {
         Form {
-            DatePicker("Datum", selection: $hourEntry.occurredAt, in: ...Date(), displayedComponents: .date)
+            DatePicker(LocalizedStringKey("entry-editor-date"), selection: $hourEntry.occurredAt, in: ...Date(), displayedComponents: .date)
 
             TimeIntervalEditField(timeInterval: $hourEntry.deltaHours)
         }
-        .navigationTitle("Eintrag Bearbeiten")
+        .navigationTitle("entry-editor-title")
         .onDisappear {
             save()
         }

@@ -14,7 +14,7 @@ struct PersonHourEntries: View {
 
     var body: some View {
         if person.typedHourEntries.isEmpty {
-            Text("Bitte erstellen Sie mit + den ersten Eintrag.")
+            Text("person-hour-entries-empty-list-hint")
                 .foregroundColor(.secondary)
         }
 
@@ -36,7 +36,7 @@ struct PersonHourEntries: View {
         .toolbar {
             ToolbarItem {
                 Button(action: addItem) {
-                    Label("Neuer Eintrag", systemImage: "plus")
+                    Label("person-hour-list-new-entry", systemImage: "plus")
                 }
             }
         }

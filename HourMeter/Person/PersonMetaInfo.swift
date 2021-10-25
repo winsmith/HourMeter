@@ -25,7 +25,7 @@ struct PersonMetaInfo: View {
                     Button {
                         isShowingPersonEditor = true
                     } label: {
-                        Label("Person Bearbeiten", systemImage: "pencil")
+                        Label("person-meta-info-edit-person", systemImage: "pencil")
                     }
                 }
 
@@ -41,7 +41,7 @@ struct PersonMetaInfo: View {
             VStack {
                 Text(DateComponentsFormatter.timeIntervalString(from: person.sumOfAllHourEntries))
                     .font(.system(.caption, design: .rounded))
-                Text("Stunden")
+                Text("hours")
                     .font(.footnote)
                     .foregroundColor(.secondary)
             }

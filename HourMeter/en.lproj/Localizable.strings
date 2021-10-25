@@ -1,4 +1,4 @@
-/* 
+/*
   Localizable.strings
   HourMeter
 
@@ -6,4 +6,31 @@
   
 */
 
-"empty-person-list-hint" = "Please use + to add a person"
+/* General */
+"hours" = "Hours";
+
+/* PersonList */
+"person-list-title" = "People";
+"person-list-new-person" = "New Person";
+"person-list-empty-detail" = "Please select a person";
+"empty-person-list-hint" = "Please use + to create the first person";
+
+/* PersonHourEntries */
+"person-hour-entries-empty-list-hint" = "Please use + to create the first entry";
+"person-hour-list-new-entry" = "New Entry";
+
+/* PersonMetaInfo */
+"person-meta-info-edit-person" = "Edit Person";
+
+/* PersonEditor */
+"person-editor-edit-person" = "Edit Person";
+"person-editor-name" = "Name";
+"person-editor-name-prompt" = "The person's name";
+"person-editor-note" = "Notes";
+"person-editor-name-prompt" = "Optional: write down notes for this person";
+"person-editor-save" = "Save";
+"person-editor-title-name %@" = "Edit %@";
+
+/* HourEntryEditor */
+"entry-editor-title" = "Edit Entry";
+"entry-editor-date" = "Date";

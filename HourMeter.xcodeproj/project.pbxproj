@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B122C12272743EB00BB2C36 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B122C15272743EB00BB2C36 /* Localizable.strings */; };
+		2B122C13272743EB00BB2C36 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B122C15272743EB00BB2C36 /* Localizable.strings */; };
 		2B4A84CA2723642100305F20 /* HourMeteriPadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4A84C92723642100305F20 /* HourMeteriPadApp.swift */; };
 		2B4A84CE2723642100305F20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B4A84CD2723642100305F20 /* Assets.xcassets */; };
 		2B4A84DA2723647900305F20 /* HourMeter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B77CA362721EAE300D635C2 /* HourMeter.xcdatamodeld */; };
@@ -49,6 +51,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B122C14272743EB00BB2C36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2B122C16272743F200BB2C36 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		2B4A84C72723642100305F20 /* HourMeteriPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HourMeteriPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B4A84C92723642100305F20 /* HourMeteriPadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourMeteriPadApp.swift; sourceTree = "<group>"; };
 		2B4A84CD2723642100305F20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -133,6 +137,7 @@
 				2B77CA472721EF1D00D635C2 /* Person */,
 				2B77CA312721EAE300D635C2 /* Preview Content */,
 				2B6A474E27273EFA0045B765 /* TimeIntervalFormatter.swift */,
+				2B122C15272743EB00BB2C36 /* Localizable.strings */,
 			);
 			path = HourMeter;
 			sourceTree = "<group>";
@@ -243,6 +248,7 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
 			);
 			mainGroup = 2B77CA1F2721EAE200D635C2;
 			productRefGroup = 2B77CA292721EAE200D635C2 /* Products */;
@@ -261,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B4A84CE2723642100305F20 /* Assets.xcassets in Resources */,
+				2B122C13272743EB00BB2C36 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B77CA332721EAE300D635C2 /* Preview Assets.xcassets in Resources */,
+				2B122C12272743EB00BB2C36 /* Localizable.strings in Resources */,
 				2B77CA302721EAE300D635C2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -327,6 +335,18 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2B122C15272743EB00BB2C36 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B122C14272743EB00BB2C36 /* en */,
+				2B122C16272743F200BB2C36 /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2B4A84D72723642100305F20 /* Debug */ = {

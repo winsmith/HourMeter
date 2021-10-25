@@ -18,21 +18,21 @@ struct PersonEditor: View {
     var body: some View {
         NavigationView {
             Form {
-                Section("Person Bearbeiten") {
-                    TextField("Name", text: $person.name, prompt: Text("Name der Person"))
-                    TextField("Notiz", text: $person.note, prompt: Text("Optional: Notizen"))
+                Section("person-editor-edit-person") {
+                    TextField("person-editor-name", text: $person.name, prompt: Text("person-editor-name-prompt"))
+                    TextField("person-editor-note", text: $person.note, prompt: Text("person-editor-name-prompt"))
                 }
             }
             .toolbar {
                 ToolbarItem(placement: .confirmationAction) {
-                    Button("Speichern") {
+                    Button("person-editor-save") {
                         save()
                         isShowing = false
                     }
                     .keyboardShortcut(.defaultAction)
                 }
             }
-            .navigationTitle("\(person.name) bearbeiten")
+            .navigationTitle("person-editor-title-name \(person.name)")
         }
         .onDisappear {
             save()

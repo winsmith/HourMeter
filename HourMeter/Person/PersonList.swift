@@ -20,7 +20,7 @@ struct PersonList: View {
         NavigationView {
             List {
                 if items.isEmpty {
-                    Text("Bitte erstellen Sie mit + die erste Person.")
+                    Text("empty-person-list-hint")
                         .foregroundColor(.secondary)
                 }
 
@@ -33,22 +33,22 @@ struct PersonList: View {
                 }
                 .onDelete(perform: deleteItems)
             }
-            .navigationTitle("Personen")
+            .navigationTitle("person-list-title")
             .toolbar {
                 ToolbarItem {
                     Button(action: addItem) {
-                        Label("Neue Person", systemImage: "plus")
+                        Label("person-list-new-person", systemImage: "plus")
                     }
                 }
             }
-            Text("Bitte wählen Sie eine Person aus")
+            Text("person-list-empty-detail")
         }
     }
 
     private func addItem() {
         withAnimation {
             let newItem = Person(context: viewContext)
-            newItem.name = "Neue Person"
+            newItem.name = "person-list-new-person"
             newItem.id = UUID()
 
             do {
