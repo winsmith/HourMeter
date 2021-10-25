@@ -16,7 +16,7 @@ struct PersonListEntry: View {
         HStack {
             Text(person.name)
             Spacer()
-            Text(person.humanReadableSumOfALlHourEntries).foregroundColor(.secondary)
+            Text(DateComponentsFormatter.timeIntervalString(from: person.sumOfAllHourEntries)).foregroundColor(.secondary)
         }
     }
 }

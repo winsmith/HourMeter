@@ -25,6 +25,10 @@
 		2B4A84E72723648400305F20 /* HourEntryEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B77CA5827220B0800D635C2 /* HourEntryEditor.swift */; };
 		2B4A84E92723717B00305F20 /* PersonListEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4A84E82723717B00305F20 /* PersonListEntry.swift */; };
 		2B4A84EA2723717B00305F20 /* PersonListEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4A84E82723717B00305F20 /* PersonListEntry.swift */; };
+		2B6A474C27273D960045B765 /* TimeIntervalEditField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6A474B27273D960045B765 /* TimeIntervalEditField.swift */; };
+		2B6A474D27273D960045B765 /* TimeIntervalEditField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6A474B27273D960045B765 /* TimeIntervalEditField.swift */; };
+		2B6A474F27273EFA0045B765 /* TimeIntervalFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6A474E27273EFA0045B765 /* TimeIntervalFormatter.swift */; };
+		2B6A475027273EFA0045B765 /* TimeIntervalFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6A474E27273EFA0045B765 /* TimeIntervalFormatter.swift */; };
 		2B77CA2C2721EAE200D635C2 /* HourMeterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B77CA2B2721EAE200D635C2 /* HourMeterApp.swift */; };
 		2B77CA2E2721EAE200D635C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B77CA2D2721EAE200D635C2 /* ContentView.swift */; };
 		2B77CA302721EAE300D635C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B77CA2F2721EAE300D635C2 /* Assets.xcassets */; };
@@ -49,6 +53,8 @@
 		2B4A84C92723642100305F20 /* HourMeteriPadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourMeteriPadApp.swift; sourceTree = "<group>"; };
 		2B4A84CD2723642100305F20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B4A84E82723717B00305F20 /* PersonListEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListEntry.swift; sourceTree = "<group>"; };
+		2B6A474B27273D960045B765 /* TimeIntervalEditField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeIntervalEditField.swift; sourceTree = "<group>"; };
+		2B6A474E27273EFA0045B765 /* TimeIntervalFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeIntervalFormatter.swift; sourceTree = "<group>"; };
 		2B77CA282721EAE200D635C2 /* HourMeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HourMeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B77CA2B2721EAE200D635C2 /* HourMeterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourMeterApp.swift; sourceTree = "<group>"; };
 		2B77CA2D2721EAE200D635C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -126,6 +132,7 @@
 				2B77CA2B2721EAE200D635C2 /* HourMeterApp.swift */,
 				2B77CA472721EF1D00D635C2 /* Person */,
 				2B77CA312721EAE300D635C2 /* Preview Content */,
+				2B6A474E27273EFA0045B765 /* TimeIntervalFormatter.swift */,
 			);
 			path = HourMeter;
 			sourceTree = "<group>";
@@ -148,6 +155,7 @@
 				2B77CA522721FBAA00D635C2 /* PersonMetaInfo.swift */,
 				2B77CA56272203F600D635C2 /* PersonEditor.swift */,
 				2B77CA5827220B0800D635C2 /* HourEntryEditor.swift */,
+				2B6A474B27273D960045B765 /* TimeIntervalEditField.swift */,
 			);
 			path = Person;
 			sourceTree = "<group>";
@@ -278,6 +286,8 @@
 				2B4A84DC2723647C00305F20 /* HourEntry+CoreDataClass.swift in Sources */,
 				2B4A84E22723648400305F20 /* PersonEditor.swift in Sources */,
 				2B4A84EA2723717B00305F20 /* PersonListEntry.swift in Sources */,
+				2B6A475027273EFA0045B765 /* TimeIntervalFormatter.swift in Sources */,
+				2B6A474D27273D960045B765 /* TimeIntervalEditField.swift in Sources */,
 				2B4A84CA2723642100305F20 /* HourMeteriPadApp.swift in Sources */,
 				2B4A84DD2723647C00305F20 /* Person+CoreDataClass.swift in Sources */,
 				2B4A84DE2723647C00305F20 /* Persistence.swift in Sources */,
@@ -301,6 +311,8 @@
 				2B77CA352721EAE300D635C2 /* Persistence.swift in Sources */,
 				2B77CA4F2721F43F00D635C2 /* HourEntry+CoreDataProperties.swift in Sources */,
 				2B4A84E92723717B00305F20 /* PersonListEntry.swift in Sources */,
+				2B6A474F27273EFA0045B765 /* TimeIntervalFormatter.swift in Sources */,
+				2B6A474C27273D960045B765 /* TimeIntervalEditField.swift in Sources */,
 				2B77CA402721EC4500D635C2 /* DateExtensions.swift in Sources */,
 				2B77CA532721FBAA00D635C2 /* PersonMetaInfo.swift in Sources */,
 				2B77CA55272201A700D635C2 /* PersonOverview.swift in Sources */,

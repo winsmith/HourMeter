@@ -15,39 +15,8 @@ struct HourEntryEditor: View {
     var body: some View {
         Form {
             DatePicker("Datum", selection: $hourEntry.occurredAt, in: ...Date(), displayedComponents: .date)
-            
-            HStack {
-                Button {
-                    hourEntry.deltaHours -= 3600
-                } label: {
-                    Text("-")
-                        .frame(width: 22, height: 22)
-                        .font(.largeTitle)
-                        .padding()
-                }
-                .buttonStyle(PlainButtonStyle())
 
-                Spacer()
-                
-                VStack {
-                    Text(hourEntry.humanReadableDeltaHours)
-                        .font(.largeTitle)
-                    Text("Stunden")
-                        .foregroundColor(.secondary)
-                }
-                
-                Spacer()
-                
-                Button {
-                    hourEntry.deltaHours += 3600
-                } label: {
-                    Text("+")
-                        .frame(width: 22, height: 22)
-                        .font(.largeTitle)
-                        .padding()
-                }
-                .buttonStyle(PlainButtonStyle())
-            }
+            TimeIntervalEditField(timeInterval: $hourEntry.deltaHours)
         }
         .navigationTitle("Eintrag Bearbeiten")
         .onDisappear {

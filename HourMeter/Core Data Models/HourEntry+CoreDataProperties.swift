@@ -6,29 +6,18 @@
 //
 //
 
-import Foundation
 import CoreData
+import Foundation
 
-
-extension HourEntry {
-
-    @nonobjc public class func fetchRequest() -> NSFetchRequest<HourEntry> {
+public extension HourEntry {
+    @nonobjc class func fetchRequest() -> NSFetchRequest<HourEntry> {
         return NSFetchRequest<HourEntry>(entityName: "HourEntry")
     }
 
-    @NSManaged public var deltaHours: Double
-    @NSManaged public var occurredAt: Date
-    @NSManaged public var id: UUID
-    @NSManaged public var person: Person
-
+    @NSManaged var deltaHours: Double
+    @NSManaged var occurredAt: Date
+    @NSManaged var id: UUID
+    @NSManaged var person: Person
 }
 
-extension HourEntry {
-    var humanReadableDeltaHours: String {
-        DateComponentsFormatter().string(from: deltaHours)!
-    }
-}
-
-extension HourEntry : Identifiable {
-
-}
+extension HourEntry: Identifiable {}

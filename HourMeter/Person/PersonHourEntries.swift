@@ -27,7 +27,7 @@ struct PersonHourEntries: View {
                         Text(entry.occurredAt, style: .date)
                             .foregroundColor(.secondary)
                         Spacer()
-                        Text(entry.humanReadableDeltaHours)
+                        Text(DateComponentsFormatter.timeIntervalString(from: entry.deltaHours))
                     }
                 }
             }

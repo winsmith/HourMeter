@@ -44,10 +44,6 @@ extension Person {
     var sumOfAllHourEntries: Double {
         return typedHourEntries.map { $0.deltaHours }.reduce(0.0, +) 
     }
-    
-    var humanReadableSumOfALlHourEntries: String {
-        DateComponentsFormatter().string(from: sumOfAllHourEntries)!
-    }
 }
 
 extension Person: Identifiable {}

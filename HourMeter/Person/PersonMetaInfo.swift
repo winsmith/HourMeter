@@ -39,7 +39,7 @@ struct PersonMetaInfo: View {
             Spacer()
 
             VStack {
-                Text(person.humanReadableSumOfALlHourEntries)
+                Text(DateComponentsFormatter.timeIntervalString(from: person.sumOfAllHourEntries))
                     .font(.system(.caption, design: .rounded))
                 Text("Stunden")
                     .font(.footnote)
