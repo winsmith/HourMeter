@@ -13,6 +13,12 @@ struct PersonHourEntries: View {
     @Environment(\.managedObjectContext) private var viewContext
 
     var body: some View {
+        if !person.note.isEmpty {
+            Text(person.note)
+                .font(.footnote)
+                .foregroundColor(.secondary)
+        }
+
         if person.typedHourEntries.isEmpty {
             Text("person-hour-entries-empty-list-hint")
                 .foregroundColor(.secondary)

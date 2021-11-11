@@ -48,7 +48,7 @@ struct PersonList: View {
     private func addItem() {
         withAnimation {
             let newItem = Person(context: viewContext)
-            newItem.name = "person-list-new-person"
+            newItem.name = NSLocalizedString("person-list-new-person", comment: "") 
             newItem.id = UUID()
 
             do {

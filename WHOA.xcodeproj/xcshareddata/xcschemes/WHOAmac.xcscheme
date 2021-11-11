@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2B77CA272721EAE200D635C2"
-               BuildableName = "HourMeter.app"
+               BuildableName = "WHOA.app"
                BlueprintName = "WHOA"
                ReferencedContainer = "container:WHOA.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2B77CA272721EAE200D635C2"
-            BuildableName = "HourMeter.app"
+            BuildableName = "WHOA.app"
             BlueprintName = "WHOA"
             ReferencedContainer = "container:WHOA.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2B77CA272721EAE200D635C2"
-            BuildableName = "HourMeter.app"
+            BuildableName = "WHOA.app"
             BlueprintName = "WHOA"
             ReferencedContainer = "container:WHOA.xcodeproj">
          </BuildableReference>

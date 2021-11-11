@@ -16,23 +16,15 @@ struct PersonMetaInfo: View {
 
     var body: some View {
         HStack {
-            VStack(alignment: .leading) {
-                HStack {
-                    Text(person.name)
-                        .font(.title)
-                        .bold()
+            HStack {
+                Text(person.name)
+                    .font(.title)
+                    .bold()
 
-                    Button {
-                        isShowingPersonEditor = true
-                    } label: {
-                        Label("person-meta-info-edit-person", systemImage: "pencil")
-                    }
-                }
-
-                if let note = person.note {
-                    Text(note)
-                        .font(.footnote)
-                        .foregroundColor(.secondary)
+                Button {
+                    isShowingPersonEditor = true
+                } label: {
+                    Label("person-meta-info-edit-person", systemImage: "pencil")
                 }
             }
 
